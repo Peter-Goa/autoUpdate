@@ -12,6 +12,7 @@ mkdir Peter-Goa.github.io
 xcopy /E/Y .\copy_temp .\Peter-Goa.github.io
 xcopy /E/Y/I .\copy_temp\.git .\Peter-Goa.github.io\.git
 copy /Y .\makefile .\Peter-Goa.github.io\makefile
+copy /Y .\readme.md .\Peter-Goa.github.io\readme.md
 cd .\Peter-Goa.github.io
 make
 del /F/S/Q ..\copy_temp
